@@ -1,9 +1,7 @@
 FROM centos:7
 
-COPY yum.repo /etc/yum.repos.d/CentOS-Base.repo
-
-RUN yum install -y ca-certificates
-RUN yum -y update; yum clean all
+#RUN yum install -y ca-certificates
+#RUN yum -y update; yum clean all
 RUN yum -y install httpd
 RUN yum install -y tar
 
