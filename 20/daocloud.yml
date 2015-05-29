@@ -1,8 +1,0 @@
-image: centos
-
-notify:
-  email:
-    recipients:
-      - testbunker@gmail.com
-    on_success: on
-    on_failure: off
